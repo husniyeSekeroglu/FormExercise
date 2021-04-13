@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <h1>Profil</h1>
+        <p>Hier Konnen Sie Ihre Adress...</p>
+        <form action="index.html" method="GET">
+            <hr><br>
+            <fieldset>
+                <legend>Persönliche Daten</legend>
+                <label for="fname">Titel:</label>
+                <input type="text" id="fname" name="fname" placeholder="Dr hc"><br><br>
+                <label for="fname">Vorname:</label>
+                <input type="text" id="fname" name="lname" placeholder="Peter"><br><br>
+                <label for="lname">Nachname:</label>
+                <input type="text" id="lname" name="lname" placeholder="Muster"><br><br>
+                <label for="male">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <label for="male">Sprache:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">DE</label>
+                <input type="radio" id="de" name="de" value="de">
+                <label for="male">FR</label>
+                <input type="radio" id="fr" name="fr" value="fr">
+                <label for="male">IT</label>
+               
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Kontakdaten</legend>
+                <label for="phone">Telephone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+                <label for="phone">Hauptnumber:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+                <label for="email">Email1:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="email">Email2:</label>
+                <input type="email" id="email" name="email" placeholder="optional"><br><br>
+                <label for="phone">Fax:</label>
+                <input type="tel" id="phone" name="phone" placeholder="optional"><br><br>  
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Adressdaten</legend>
+                <label for="firma">Firma </label>
+                <input type="text" id="firma" name="firma"><br><br>
+                <label for="zFirma">Zusat Firma </label>
+                <input type="text" id="zFirma" name="zFirma" placeholder="optional"><br><br>
+                <label for="page">Home Page </label>
+                <input type="text" id="page" name="page" placeholder="optional"><br><br>
+                <label for="zip">Adresse /Haus Nr</label>
+                <input type="text" id="zip" name="zip" placeholder="Musterstadt">
+                <input type="number" id="ort" name="ort" placeholder="3"><br><br>
+                <label for="zAdress">Zusat Adress </label>
+                <input type="text" id="zAdress" name="zAdress" placeholder="optional"><br><br>
+                <label for="zip">PLZ/ORT</label>
+                <input type="text" id="zip" name="zip" placeholder="6005">
+                <input type="text" id="ort" name="ort" placeholder="Musterstadt"><br><br>
+                <label for="kanton-land">Kanton/Land</label>
+                <input type="text" id="Kanton" name="Kanton" placeholder="ZH">
+                <input type="text" id="land" name="land" placeholder="Schweiz">
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
